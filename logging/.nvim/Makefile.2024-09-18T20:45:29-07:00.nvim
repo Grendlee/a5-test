@@ -1,0 +1,7 @@
+logging: logging.c
+	cc -Weverything -Wall logging.c log.c -o logging
+
+
+
+clean:
+	rm -f logging

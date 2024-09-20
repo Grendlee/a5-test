@@ -1,0 +1,9 @@
+CC = clang
+
+logging: logging.c
+	cc -Weverything -o logging logging.c log.c
+
+
+
+clean:
+	rm -f logging

@@ -1,0 +1,14 @@
+
+
+logging: logging.o
+	cc logging.o -o logging
+
+
+logging: logging.c
+	cc -c logging.c -o logging.o
+
+logging.c:
+	logging.c
+
+clean:
+	rm -f logging

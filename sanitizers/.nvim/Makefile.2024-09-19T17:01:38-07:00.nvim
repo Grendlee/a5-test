@@ -1,0 +1,13 @@
+
+
+
+
+sanitizers: abs.c main.c
+	clang -o sanitizers abs.c main.c
+
+
+clean:
+	rm -f sanitizers
+
+
+

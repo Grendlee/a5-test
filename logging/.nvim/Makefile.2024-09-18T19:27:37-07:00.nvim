@@ -1,0 +1,7 @@
+logging: logging.c
+	cc logging.c -o logging
+
+
+
+clean:
+	rm -f logging

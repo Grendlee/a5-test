@@ -1,0 +1,7 @@
+logging: logging.c
+	cc -fsanitize=address -fsanitize=memory -fsanitize=thread -Wextra -Wpedantic -Wall logging.c log.c -o logging
+
+
+
+clean:
+	rm -f logging

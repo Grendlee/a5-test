@@ -1,0 +1,12 @@
+#include "abs.c"
+#include <stdio.h>
+
+
+int absolute_value(int32_t num);
+
+int main(void) {
+
+  absolute_value(INT32_MIN);
+
+  return 0;
+}

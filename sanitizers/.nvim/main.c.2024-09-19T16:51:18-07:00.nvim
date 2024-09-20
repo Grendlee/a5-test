@@ -1,0 +1,10 @@
+#include <:>
+
+
+
+int main() {
+
+  absolute_value(INT32_MIN);
+
+  return 0;
+}
